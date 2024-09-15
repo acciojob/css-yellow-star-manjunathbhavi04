@@ -1,1 +1,24 @@
 /*  your css code here. If applicable */
+.star{
+	background-color: yellow;
+	width: 0px;
+	height: 0px;
+	margin: 200px;
+	border-left: 200px solid white;
+	border-right: 200px solid white;
+	border-bottom: 300px solid yellow;
+}
+.star:before{
+	content: "";
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	margin: 200px;
+	border-left: 200px solid transparent;
+	border-right: 200px solid transparent;
+	border-top: 300px solid yellow;
+
+	top: 100px;;
+	left: 20px;
+	
+}
